@@ -25,7 +25,7 @@ class testDeckMethods(unittest.TestCase):
         self.assertEquals(len(deck.cards),51,"deck length is decreased by one properly")
 
     def test_shuffle_cards(self):
-        print "going to shuffle cards"
+        print("going to shuffle cards")
         deck = Deck()
         deck.shuffle_cards()
         deck.display_cards(5)
